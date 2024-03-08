@@ -1,7 +1,7 @@
 
 public interface EncoderDecoderInterface {
 	
-	String encode(String plainText);
+	public String encode(String plainText);
 	
-	String decode(String encodedText);
+	public String decode(String encodedText);
 }
